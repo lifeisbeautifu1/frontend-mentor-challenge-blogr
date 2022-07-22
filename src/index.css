@@ -10,4 +10,21 @@
     background: linear-gradient(90deg, #ff8f70, #ff8269, #ff7461, #ff665a, #ff5753, #ff4c50, #ff4451, #ff3d54);
 }
 
+.answer {
+    transition: all 1.4s;
+    max-height: 0px;
+}
+
+.faq svg {
+    transition: all 0.5s;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+}
+
+.faq.active svg {
+    transform: rotate(180deg);
+}
+
 

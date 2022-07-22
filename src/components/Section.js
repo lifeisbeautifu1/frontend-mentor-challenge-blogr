@@ -37,7 +37,7 @@ const Section = ({
         </div>
         <div className="flex-1 relative">
           <img
-            class="md:absolute md:top-[-75px] md:right-0"
+            className="md:absolute md:top-[-75px] md:right-0"
             src={image}
             alt=""
           />
