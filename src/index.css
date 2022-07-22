@@ -10,6 +10,10 @@
     background: linear-gradient(90deg, #ff8f70, #ff8269, #ff7461, #ff665a, #ff5753, #ff4c50, #ff4451, #ff3d54);
 }
 
+.body-bg {
+    background: linear-gradient(180deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+}
+
 .answer {
     transition: all 1.4s;
     max-height: 0px;
