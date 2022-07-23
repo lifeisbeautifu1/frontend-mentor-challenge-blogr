@@ -12,10 +12,10 @@ const Section = ({
   return (
     <div
       className="text-veryDarkBlue w-4/5 mx-auto flex flex-col items-center
-    gap-10 mb-40"
+    gap-10 mb-60"
     >
       {heading && (
-        <h1 className="mt-20 mb-10 text-center text-3xl font-bold">
+        <h1 className="mt-28 mb-10 text-center text-3xl font-bold">
           {heading}
         </h1>
       )}
@@ -37,7 +37,9 @@ const Section = ({
         </div>
         <div className="flex-1 relative">
           <img
-            className="md:absolute md:top-[-75px] md:right-0"
+            className={`lg:absolute lg:top-[-75px] lg:right-0 lg:scale-[1.4]  ${
+              reverse ? 'lg:translate-x-[-255px]' : 'lg:translate-x-[255px]'
+            }`}
             src={image}
             alt=""
           />

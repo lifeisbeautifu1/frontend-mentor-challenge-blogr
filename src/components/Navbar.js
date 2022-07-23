@@ -47,27 +47,27 @@ const Navbar = () => {
               </div>
               <ul className="answer flex flex-col bg-gray-100 overflow-hidden gap-3 rounded text-center text-gray-500 text-base">
                 <li className="mt-4">
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Overview
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Pricing
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Marketplace
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Features
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Integrations
                   </a>
                 </li>
@@ -92,22 +92,22 @@ const Navbar = () => {
               </div>
               <ul className="answer flex flex-col bg-gray-100 overflow-hidden gap-3 rounded text-center text-gray-500 text-base">
                 <li className="mt-4">
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Team
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Blog
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Careers
                   </a>
                 </li>
@@ -132,18 +132,18 @@ const Navbar = () => {
               </div>
               <ul className="answer flex flex-col bg-gray-100 overflow-hidden gap-3 rounded text-center text-gray-500 text-base">
                 <li className="mt-4">
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     Newsletter
                   </a>
                 </li>
 
                 <li className="mb-4">
-                  <a href="#" className="hover:text-black hover:font-[600]">
+                  <a href="/" className="hover:text-black hover:font-[600]">
                     LinkedIn
                   </a>
                 </li>
@@ -175,7 +175,7 @@ const Navbar = () => {
         <ul className=" justify-between items-center gap-4 font-[600] text-[1rem] hidden md:flex">
           <li className="flex items-center gap-2 cursor-pointer hover:underline group relative">
             Product{' '}
-            <span className="group-hover:rotate-[180deg] transition duration-200">
+            <span className="group-hover:rotate-[180deg] transition duration-500">
               <svg
                 className="h-full"
                 xmlns="http://www.w3.org/2000/svg"
@@ -193,27 +193,27 @@ const Navbar = () => {
             </span>
             <ul className="hidden flex-col gap-2 p-5 w-[175px] text-left bg-white rounded shadow absolute top-6 group-hover:flex text-veryDarkBlue font-[300]">
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Overview
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Marketplace
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Integrations
                 </a>
               </li>
@@ -221,7 +221,7 @@ const Navbar = () => {
           </li>
           <li className="flex items-center gap-2 cursor-pointer hover:underline group relative">
             Company{' '}
-            <span className="group-hover:rotate-[180deg] transition duration-200">
+            <span className="group-hover:rotate-[180deg] transition duration-500">
               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
                 <path
                   fill="none"
@@ -234,22 +234,22 @@ const Navbar = () => {
             </span>
             <ul className="hidden flex-col gap-2 p-5 w-[175px] text-left bg-white rounded shadow absolute top-6 group-hover:flex text-veryDarkBlue font-[300]">
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Team
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Careers
                 </a>
               </li>
@@ -257,7 +257,7 @@ const Navbar = () => {
           </li>
           <li className="flex items-center gap-2 cursor-pointer hover:underline group relative">
             Connect{' '}
-            <span className="group-hover:rotate-[180deg] transition duration-200">
+            <span className="group-hover:rotate-[180deg] transition duration-500">
               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
                 <path
                   fill="none"
@@ -270,17 +270,17 @@ const Navbar = () => {
             </span>
             <ul className="hidden flex-col gap-2 p-5 w-[175px] text-left bg-white rounded shadow absolute top-6 group-hover:flex text-veryDarkBlue font-[300]">
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Newsletter
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-black hover:font-[600]">
+                <a href="/" className="hover:text-black hover:font-[600]">
                   Linkedin
                 </a>
               </li>
